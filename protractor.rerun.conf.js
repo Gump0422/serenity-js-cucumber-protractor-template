@@ -43,8 +43,9 @@ exports.config = {
             'ts-node/register'
         ],
         format: [
-            'rerun:@rerun.txt',
+            'rerun:@rerun1.txt',
         ],
+        rerun: '@rerun.txt',
         tags:    ['@test'],
         strict:  false,
     },

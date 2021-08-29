@@ -20,8 +20,8 @@ Feature: Calculations
     When she adds 19 and 23
     Then she should see that the result is 42
 
-  @fast @smoke
+  @fast @smoke @test
   Scenario: Multiplying numbers
 
     When she multiplies 6 and 2
-    Then she should see that the result is 12
+    Then she should see that the result is 13
